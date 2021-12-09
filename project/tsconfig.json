@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // javascript도 허용해줄게
+    "target": "ES5", // ts to js version
+    "outDir": "/built",
+    "moduleResolution": "node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"]
+  },
+  "include": ["./src/**/*"]
+}
